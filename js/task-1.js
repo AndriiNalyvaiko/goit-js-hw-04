@@ -3,9 +3,10 @@ function isEnoughCapacity(products, containerSize) {
 
     for (const quantity of Object.values(products)) {
         totalQuantity += quantity;
-
-        return totalQuantity <= containerSize;
-    }
+       
+  }
+   return totalQuantity <= containerSize;
+  
 }
 
 
